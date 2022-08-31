@@ -913,6 +913,10 @@ a {
     font-weight: 400;
 }
 
+.acls{
+    background-color: white;
+}
+
 #drop_down_bars .h_para h2 {
     line-height: 2em;
     font-weight: 100;
