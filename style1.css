@@ -1,0 +1,90 @@
+.navbar .burger_sec {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hamburger {
+    background: #011324;
+    width: 100%;
+    display: none;
+    
+}
+
+.hamburger .hamburger_icon {
+    color: #fff;
+    /* display: block; */
+    position: relative;
+    left: 90%;
+    top: 22px;
+    background: #011324;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 0%
+
+}
+
+.hamburger_icon img {
+    width: 55px;
+    height: 50px;
+}
+
+.nav_hamburger ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: flex;
+    text-align: left;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    color: #fff;
+}
+
+.nav_hamburger ul li {
+    list-style: none;
+    z-index: -1;
+    margin: 0px 20px 0px 20px;
+}
+
+.nav_hamburger {
+    position: absolute;
+    background: #011324;
+    width: 100%;
+    /* left: 0; */
+    /* margin-top: 2%; */
+    display: block;
+    z-index: 1;
+}
+
+.nav_hamburger .hamburger_btn {
+    border-radius: 4px;
+    background-color: #FD5A12;
+}
+
+/* .hamburger .closing_icon img {
+    width: 45px;
+    height: 40px;
+    display: block;
+} */
+
+.hamburger .fa-times {
+    position: relative;
+    font-size: 50px;
+    bottom: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hamburger .fa-bars {
+    font-size: 40px;
+    /* position: relative; */
+    /* bottom: 20px; */
+display: flex;
+justify-content: center;
+align-items: center;
+}

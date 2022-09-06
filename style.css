@@ -61,6 +61,11 @@ header {
 }
 
 .tabs {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
     padding-top: 60px;
     padding-bottom: 40px;
 }
@@ -69,7 +74,7 @@ header {
     padding-top: 0px;
 }
 
-.tabs ul {
+/* .tabs ul {
     width: 85%;
     display: flex;
     justify-content: center;
@@ -78,19 +83,19 @@ header {
     list-style: none;
     margin: 0 auto;
 
-}
+} */
 
-.tabs ul li {
+/* .tabs ul li {
     padding: 45px;
-}
+} */
 
-.tabs ul li a {
+/* .tabs ul li a {
     display: flex;
     color: #c4a499;
-}
+} */
 
 .section1 .portfolio_section1 .latest-item {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     width: 85%;
     align-items: center;
     justify-content: center;
@@ -132,6 +137,7 @@ header {
 .portfolio_section2 .container2_cover .design_content_cover {
     width: 85%;
     background-color: #e05151;
+    padding-bottom: 20px;
 }
 
 .portfolio_section2 .design_content_cover .btn button {
@@ -178,7 +184,7 @@ color: black;
 
 
 .container1 {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -1048,10 +1054,9 @@ img {
 .small_cards .small_card1,
 .small_cards2,
 h5,
-h2,
-p {
+h2
+{
 
-    padding: 5px;
     opacity: .8;
 }
 
@@ -1546,17 +1551,28 @@ line-height: 1.5em;
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    padding-bottom: 30px;
+}
+.client{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.client img{
+    width: 50%;
 }
 .media .container2_cover .category{
     flex-direction: column;
-    width: 35%;
+    width: 22%;
 }
 .client_catageory .cat{
     color:  #ef6d58;
     padding-bottom: 10px;
 }
 .client_catageory .cat_p{
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     padding-top: 10px;
 }
 .media .design_content_cover .media_img{
@@ -1607,7 +1623,15 @@ line-height: 1.5em;
    
 
   }
+  .client h5{
+    color: #e05151;
+  }
 
 
 
 /* <<<<<<<<<<<<<.......Single Project,...........>>.>>>>>>> */
+
+
+
+/* <<<<<<<<<<< Responsive site>...............>>>>>>>>>>> */
+

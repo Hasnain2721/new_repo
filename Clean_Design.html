@@ -6,19 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Clean Design</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="jquery-3.6.0.min.js"></script>
     <script src="jquery.js"></script>
+    <link rel="stylesheet" href="query.js">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="responsive.css">
+    
 </head>
 
 
@@ -44,6 +48,26 @@
             </div>
             <div class="btn">
                 <button><a href="#">Contact</a></button>
+            </div>
+        </section>
+        <section class="burger_sec" >
+            <div class="hamburger">
+                <div id="burger_click" class="hamburger_icon">
+                    <div class="three_lines">
+                    <i class="fa-solid fa-bars"></i></div>
+                    <div id="burger_active" class="closing_icon">
+                        <i class="fa-solid fa-times"></i>
+                    </div>
+                </div>
+                <div class="nav_hamburger">
+                    <ul class="nav_hamburger_ankers">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services<i class="arrow down"></i></a></li>
+                        <li><a href="work.html">Work</a></li>
+                        <li><a href="get-touch.html">Get in Touch</a></li>
+                        <li class="hamburger_btn"><a href="#" style="color:white;">Request A Quote</a></li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section class="container2">
@@ -268,7 +292,7 @@
         </div>
         <div class="counter">
             <div class="counter_card1">
-                <div class="counter_icon">
+                <div class="counter_icon counter__icon">
                     <div class="counter_logo">
                         <img src="Images/calendar.png" alt="This is a logo">
                     </div>
@@ -280,7 +304,7 @@
                 </div>
             </div>
             <div class="counter_card1">
-                <div class="counter_icon">
+                <div class="counter_icon  counter__icon1">
                     <div class="counter_logo">
                         <img src="Images/briefcase.png" alt="This is a logo">
                     </div>

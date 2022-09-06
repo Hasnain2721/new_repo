@@ -1,0 +1,120 @@
+@media only screen and (max-width: 900px) {
+.container2 .design_content_cover{
+    flex-direction: column-reverse;
+}
+.container2 .design_image{
+    width: 100%;
+}
+.container2 .design_image img{
+    width: 80%;
+}
+.container2 .design_content{
+    width: 90%;
+    text-align: center;
+}
+.container1 .navbar,.btn{
+    display: none;
+}
+
+
+/* <<<<<<<<<<<<<portfolio page>>>>>>>>>>>>>> */
+
+.tabs{
+    flex-wrap: wrap;
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 768px){
+.container3 .design_development .cover{
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.container3 .design_development .cover .card{
+width: 90%;
+text-align: center;
+align-items: center;
+}
+.container4 .latest_work1{
+flex-direction: column;
+}
+.container4 .latest_work2{
+text-align: center;
+padding-bottom: 30px;
+}
+.tabs{
+    flex-wrap: wrap;
+    width: 100%;
+}
+.container4 .portfolio_section1.latest-item{
+    flex-wrap: wrap;
+    width: 100%;
+}
+.latest-item .items{
+    width: 50%;
+}
+
+
+.container5 .professional_cover{
+    flex-direction: column-reverse;
+}
+.container5 .container2_cover{
+    width: 100%;
+}
+.container5 .design_content_cover{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+}
+@media only screen and (max-width: 650px){
+
+    .container4 .portfolio_section1.latest-item{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .latest-item .items{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .container5 .counter{
+        flex-wrap: wrap;
+    width: 100%;
+    }
+    .container5 .counter_icon{
+        align-items: center;
+        width: 100%;
+    }
+    .container5 .counter__icon{
+        justify-content: space-around;
+        width: 62%;
+    }
+    
+    .container5 .counter__icon1{
+        justify-content: space-around;
+        width: 70%;
+    }
+    
+    
+    .container5 .counter_card1{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .container6{
+        flex-direction: column-reverse;
+    }
+    .container6 .design_content{
+        width: 100%;
+    }
+    .container6 .design_content_cover{
+        width: 100%;
+        padding-top: 30px;
+    }
+}

@@ -13,11 +13,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="jquery-3.6.0.min.js"></script>
     <script src="jquery.js"></script>
+    <script src="query.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
@@ -55,84 +59,115 @@
     </header>
     <section class="section1">
         <div class="tabs">
-            <ul>
-                <li class="sub_tabs"><a href="#">Show ALL <sup>14</sup></a> </li>
-                <li class="sub_tabs"><a href="#">Design <sup>6</sup></a> </li>
-                <li class="sub_tabs"><a href="#">Brading <sup>4</sup></a> </li>
-                <li class="sub_tabs"><a href="#">Illustration <sup>3</sup></a> </li>
-                <li class="sub_tabs"><a href="#">Motion <sup>1</sup></a> </li>
-
-            </ul>
+            <a href="#" data-filter="*">Show ALL <sup>14</sup></a>
+            <a href="#" data-filter=".design">Design <sup>6</sup></a>
+            <a href="#" data-filter=".branding">Branding <sup>4</sup></a>
+            <a href="#" data-filter=".illustration">Illustration <sup>3</sup></a>
+            <a href="#" data-filter=".motion">Motion <sup>1</sup></a>
         </div>
-
-        <section class="container4 portfolio_section1">
+        <div class="container4 portfolio_section1">
             <div class="latest-item">
-                <div class="items">
+                <div class="items design">
                     <img src="images/work-item1.jpg" alt="">
                     <div class="item-btn">
                         <a href="#">Design</a>
                         <h2>SOFA</h2>
                     </div>
                 </div>
-                <div class="items">
+                <div class="items motion">
                     <img src="images/work-item2.jpg" alt="">
                     <div class="item-btn">
                         <a href="#">Motion</a>
                         <h2>DDDone</h2>
                     </div>
                 </div>
-                <div class="items">
+                <div class="items design">
                     <img src="images/work-item3.jpeg" alt="">
                     <div class="item-btn">
                         <a href="#">Design</a>
                         <h2>Abstract</h2>
                     </div>
                 </div>
-                <div class="items">
+                <div class="items branding">
                     <img src="images/work-item4.jpg" alt="">
                     <div class="item-btn">
                         <a href="#">Branding</a>
                         <h2>KeyBoard</h2>
                     </div>
                 </div>
-                <div class="items">
+                <div class="items illustration">
                     <img src="images/work-item5.jpg" alt="">
                     <div class="item-btn">
                         <a href="#">Illustration</a>
                         <h2>Work Media</h2>
                     </div>
                 </div>
-                <div class="items">
+                <div class="items branding">
                     <img src="images/work-item6.jpeg" alt="">
                     <div class="item-btn">
-                        <a href="#">Brading</a>
+                        <a href="#">Branding</a>
                         <h2>HandP</h2>
                     </div>
                 </div>
-                <div class="items">
+                <div class="items illustration">
                     <img src="images/work-item8.jpeg" alt="">
                     <div class="item-btn">
-                        <a href="#">Motion</a>
+                        <a href="#">Illustration</a>
                         <h2>Architect</h2>
                     </div>
                 </div>
-                <div class="items">
+                <div class="items design">
                     <img src="images/work-item9.jpeg" alt="">
                     <div class="item-btn">
                         <a href="#">Design</a>
                         <h2>CalC</h2>
                     </div>
                 </div>
-                <div class="items">
+                <div class="items branding">
                     <img src="images/work-item6.jpeg" alt="">
                     <div class="item-btn">
-                        <a href="#">Brading</a>
+                        <a href="#">Branding</a>
+                        <h2>Sport</h2>
+                    </div>
+                </div>
+                <div class="items branding">
+                    <img src="images/work-item6.jpeg" alt="">
+                    <div class="item-btn">
+                        <a href="#">Branding</a>
+                        <h2>Sport</h2>
+                    </div>
+                </div>
+                <div class="items design">
+                    <img src="images/work-item6.jpeg" alt="">
+                    <div class="item-btn">
+                        <a href="#">Design</a>
+                        <h2>Sport</h2>
+                    </div>
+                </div>
+                <div class="items design">
+                    <img src="images/work-item6.jpeg" alt="">
+                    <div class="item-btn">
+                        <a href="#">Design</a>
+                        <h2>Sport</h2>
+                    </div>
+                </div>
+                <div class="items design">
+                    <img src="images/work-item6.jpeg" alt="">
+                    <div class="item-btn">
+                        <a href="#">Design</a>
+                        <h2>Sport</h2>
+                    </div>
+                </div>
+                <div class="items illustration">
+                    <img src="images/work-item6.jpeg" alt="">
+                    <div class="item-btn">
+                        <a href="#">Illustration</a>
                         <h2>Sport</h2>
                     </div>
                 </div>
             </div>
 
-        </section>
+        </div>
 
         <div class="portfolio_btn">
             <div class="btn">
@@ -146,7 +181,8 @@
                         <h1 class="heading_simple_design">
                             Help To Build Your Dream, Project
                         </h1>
-                        <p>A digital agency is a business you hire to outsource your digital marketing effor, instead of handling in-house.
+                        <p>A digital agency is a business you hire to outsource your digital marketing effor, instead of
+                            handling in-house.
                         </p>
                         <div class="btn">
                             <button><a href="#">CONTACT NOW</a></button>
@@ -198,7 +234,7 @@
             <p>
                 <hr>
             </p>
-    
+
             <div class="copyright">
                 <div class="copyright_para">
                     <p>Copyright @ 2022 Laaqiq. All Rights Reserved</p>

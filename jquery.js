@@ -8,17 +8,34 @@ $(document).ready(function(){
     arrows:false,
     slidesToShow: 1,
     slidesToScroll: 1
-  });
 });
 $(document).ready(function(){
   $('.multiple-items').slick({
     infinite: true,
-    autoplay: true,
+    // autoplay: true,
     speed: 300,
     autoplaySpeed:1000,
     arrows:false,
     slidesToShow: 3,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+
+    responsive: [
+      {
+          breakpoint: 768,
+          settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+          }
+      },
+      // {
+      //     breakpoint: 630,
+      //     settings: {
+      //         slidesToShow: 1,
+      //         slidesToScroll: 1,
+      //     }
+      // }
+  ]
+  });
   });
 });
 $(document).ready(function(){
